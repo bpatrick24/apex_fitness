@@ -23,3 +23,33 @@ ul {
   display: block;
   margin: auto;
 }
+
+.mission-statement {
+  z-index: 5;
+  text-align: center;
+  align-items: center;
+}
+
+.join-now {
+  display: flex;
+  justify-content: space-around;
+}
+
+.classes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.class-images {
+  height: 100px;
+  width: 100px;
+}
+
+.join-now-img {
+  height: 100px;
+  width: 100px;
+}
+
+figcaption {
+  padding-top: 0;
+}
