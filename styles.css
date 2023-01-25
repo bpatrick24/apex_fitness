@@ -50,6 +50,7 @@ ul {
   width: 100px;
 }
 
-figcaption {
-  padding-top: 0;
+footer {
+  display: flex;
+  justify-content: space-between;
 }
