@@ -1,14 +1,17 @@
+/* BEGIN GENERAL CODE */
+
 * {
   border: 1px solid red;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
+body {
+  margin: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
 
 ul {
@@ -18,6 +21,21 @@ ul {
   justify-content: space-around;
 }
 
+/* END GENERAL CODE */
+
+/* BEGIN HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* END HEADER */
+
+/* BEGIN ABOUT SECTION */
 .about {
   height: 500px;
   align-items: center;
@@ -53,10 +71,35 @@ ul {
   background-color: black;
 }
 
+/* END ABOUT SECTION */
+
+/* BEGIN JOIN NOW SECTION */
+
 .join-now {
   display: flex;
   justify-content: space-around;
+  height: 500px;
+  flex-direction: row;
+  align-items: center;
 }
+
+.join-now-img {
+  height: 80%;
+  width: 45%;
+}
+
+form {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* END JOIN NOW SECTION */
+
+/* BEGIN CLASS SECTION */
 
 .classes {
   display: flex;
@@ -68,17 +111,10 @@ ul {
   width: 100px;
 }
 
-.join-now-img {
-  height: 100px;
-  width: 100px;
-}
-
+/* END CLASS SECTION */
 footer {
   display: flex;
   justify-content: space-between;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-}
+
