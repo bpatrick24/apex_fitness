@@ -1,7 +1,7 @@
 /* BEGIN GENERAL CODE */
 
 * {
-  border: 1px solid red;
+ 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -104,6 +104,15 @@ form {
 
 label {
   text-align: center;
+}
+
+#join-now-box {
+  display: flex;
+  height: 80%;
+  width: 45%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
