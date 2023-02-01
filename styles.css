@@ -94,6 +94,16 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+
+.form-grp {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
 }
 
 
