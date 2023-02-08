@@ -36,26 +36,27 @@
     </section>
     <section class="join-now">
       <div id="join-now-box">
-        <h2>JOIN NOW</h2>
-        <form>
+        <h2 >JOIN NOW</h2> 
+        <h1 id="msg"></h1>
+        <form target="_blank" action="https://script.google.com/macros/s/AKfycbyDaQM-E376ckxcsTuisQSq2pitK3Ow1GQMHRT02HEhYt5VWHbs7U25H4PXzZf5nph_HQ/exec" method="post">
           <div class="form-grp">
-            <label>First Name</label>
-            <input type ="text" required>
+            <label for="firstname">First Name</label>
+            <input type ="text" name="firstname" required>
           </div>
           <div class="form-grp">
-            <label>Last Name</label>
-            <input type ="text" required>
+            <label for="lastname">Last Name</label>
+            <input type ="text" name="lastname" required>
           </div>
           <div class="form-grp">
-            <label>Email</label>
-            <input type ="email" required>
+            <label for="email">Email</label>
+            <input type ="email" name="email" required>
           </div>
           <div class="form-grp">
-            <label>Phone</label>
-            <input type ="tel" required>
+            <label for="phone">Phone</label>
+            <input type ="tel" name="phone" required>
           </div>
           <div>
-            <input type="submit">
+            <input type="submit" id="submit">
           </div>
         </form>
       </div>
@@ -99,7 +100,6 @@
     <section class="locations">
       <h2 class="location-header">FIND AN APEX FITNESS NEAR YOU</h2>
       <div id="map">
-
       </div>
     </section>
   </main>
