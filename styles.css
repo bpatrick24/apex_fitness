@@ -33,9 +33,26 @@ header {
   align-items: center;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: black;
+  background: rgb(50,50,52);
   color: white;
 }
+
+.top-nav {
+  text-decoration: underline;
+  font-size: 20px;
+  color: white;
+}
+
+.top-nav:hover {
+  color: #810e05;
+  transition: color 0.125s ease-in-out;
+}
+
+.title-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* END HEADER */
 
@@ -63,9 +80,10 @@ header {
   width: 33%;
   height: 80%;
   justify-content: center;
-  font-size: 20px;
-  background-color: #741A1C;
-  border: 1px solid white;
+  font-size: 28px;
+  background: rgb(116,26,28);
+  background: radial-gradient(circle, rgba(116,26,28,1) 37%, rgba(57,39,39,1) 100%);
+  box-shadow: 2px 7px 15px 0px rgba(0,0,0,0.75);
 }
 
 .mission-statement {
@@ -74,7 +92,6 @@ header {
   text-align: center;
   color: whitesmoke;
   font-weight: bold;
-  background-color: black;
 }
 
 /* END ABOUT SECTION */
@@ -90,8 +107,8 @@ header {
 }
 
 .join-now-img {
-  height: 80%;
-  width: 45%;
+  height: 100%;
+  width: 50%;
   box-shadow: 2px 7px 15px 0px rgba(0,0,0,0.75);
 }
 
@@ -107,19 +124,77 @@ form {
 .form-grp {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+input {
+  height: 25px;
+  text-align: center;
+  box-shadow: 2px 7px 15px 0px rgba(78, 77, 77, 0.75);
+}
+
+input:hover {
+  border: 1px solid red;
+  transition:  0.125s ease-in-out;
+}
+
+#sub-but {
+  width: 50%;
+}
+
+#submit {
+  width: 100%;
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#submit:hover {
+  background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+
+#submit:active {
+  position:relative;
+	top:1px;
 }
 
 label {
   text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+#form-title {
+  color: #F6F1EB;
+  width: 45%;
+  text-align: center;
+  font-size: 40px;
 }
 
 #join-now-box {
   display: flex;
-  height: 80%;
-  width: 45%;
+  height: 100%;
+  width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgb(50,50,52);
+  background: radial-gradient(circle, rgba(50,50,52,1) 37%, rgba(0,0,0,1) 100%);
 }
 
 
@@ -130,6 +205,7 @@ label {
 .classes {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 
@@ -145,15 +221,19 @@ label {
   grid-template-rows: 1fr 1fr;
   gap: 20px 20px;
   grid-auto-flow: row;
-  width: 48%;
+  width: 50%;
   justify-content: space-evenly;
   align-items: center;
   justify-items: center;
 }
 
 .class-challenge {
-  width: 48%;
+  width: 50%;
   display: flex;
+  background: rgb(116,26,28);
+  background: radial-gradient(circle, rgba(116,26,28,1) 37%, rgba(57,39,39,1) 100%);
+  color: white;
+  font-size: 35px;
 }
 
 #up-for-challenge {
@@ -163,7 +243,7 @@ label {
 
 .class-fig-cap {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .image {
@@ -192,6 +272,7 @@ label {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.5s;
+  cursor: pointer;
 }
 
 .class-overlay:hover {
@@ -224,8 +305,22 @@ label {
 footer {
   display: flex;
   justify-content: space-between;
+  color: white;
+  background:rgba(78, 77, 77, 0.75);
+  background: rgb(50,50,52);
 }
 
 #footer-p {
   padding-left: 10px;
+}
+
+.git-link {
+  text-decoration: underline;
+  font-size: 16px;
+  color: white;
+}
+
+.git-link:hover {
+  color: #810e05;
+  transition: color 0.125s ease-in-out;
 }

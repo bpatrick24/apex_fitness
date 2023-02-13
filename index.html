@@ -11,13 +11,16 @@
 </head>
 <body>
   <header>
-    <h1>Apex Fitness</h1>
+    <div class="title-logo">
+      <h1>Apex Fitness</h1>
+      <i class="fa-solid fa-mountain"></i>
+    </div>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#join-now">Join Now</a></li>
-        <li><a href="#classes">Classes</a></li>
-        <li><a href="#locations">Locations</a></li>
+        <li><a class="top-nav" href="#about">About</a></li>
+        <li><a class="top-nav" href="#join-now">Join Now</a></li>
+        <li><a class="top-nav" href="#classes">Classes</a></li>
+        <li><a class="top-nav" href="#locations">Locations</a></li>
       </ul>
     </nav>
   </header>
@@ -36,7 +39,7 @@
     </section>
     <section id="join-now" class="join-now">
       <div id="join-now-box">
-        <h2 >JOIN NOW</h2> 
+        <h2 id="form-title">JOIN NOW</h2> 
         <form target="_blank" action="https://script.google.com/macros/s/AKfycbyDaQM-E376ckxcsTuisQSq2pitK3Ow1GQMHRT02HEhYt5VWHbs7U25H4PXzZf5nph_HQ/exec" method="post">
           <div class="form-grp">
             <label for="firstname">First Name</label>
@@ -54,7 +57,7 @@
             <label for="phone">Phone</label>
             <input type ="tel" name="phone" required>
           </div>
-          <div>
+          <div id="sub-but">
             <input type="submit" id="submit">
           </div>
         </form>
@@ -111,7 +114,7 @@
           </div>
         </div>
         <div class="class-challenge">
-          <h2 id="up-for-challenge">We offer hundreds of carefully selected classes to help you reach your fitness goals. Are you up for the challenge?</h2>
+          <h2 id="up-for-challenge">We offer a wide variety of carefully selected classes to help you reach your fitness goals. Are you up for the challenge?</h2>
         </div>
       </div>
     </section>
@@ -126,7 +129,7 @@
   <p id="footer-p">Apex Fitness Holdings, LLC</p>
   <ul>
     <li>Design by Brian Brill</li>
-    <li>GitHub: <a target="_blank" href="https://github.com/bpatrick24">https://github.com/bpatrick24</a></li>
+    <li>GitHub: <a class="git-link" target="_blank" href="https://github.com/bpatrick24">https://github.com/bpatrick24</a></li>
     <li>Email: bpbrill98@gmail.com</li>
   </ul>
 </footer>
